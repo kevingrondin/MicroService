@@ -14,6 +14,12 @@ Uses the following technologies:
 # in main directory
 docker-compose up
 
+# run on background
+docker-compose up -d
+
+# to clean up
+docker-compose down
+
 # in a separate terminal, inside classifieds-app
 yarn
 yarn watch
